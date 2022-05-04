@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://b10901106.w3spaces.com/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+
+        <title>CircleTien</title>
+        <link rel="icon" type="image/x-icon" href="https://b10901106.w3spaces.com/seedling-solid.svg">
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="./index_files/styles.css">
+        
+        <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        function display_ct() {
+        var x = new Date()
+        var x1= x.getMonth() + 1+ "-" + x.getDate() + "-" + x.getFullYear(); 
+        x1 = x1 + " " + (("0"+x.getHours()).slice(-2)) + ":" +(("0"+x.getMinutes()).slice(-2))+ ":" +(("0"+x.getSeconds()).slice(-2));
+        document.getElementById('ct').innerHTML = x1;
+        display_c();
+        }
+        </script>
+        
+    </head>
+
+    <body style="background-color:#c3eafd;" onload="display_ct();">
+
+        <h1>CircleTien</h1>
+        <h2 style="margin: 15px">Biography</h2>
+        <img src="./index_files/image.jpg" style="width:300px;height:450px; float: left; margin: 15px">
+
+
+        <p>Hi! My name is Tien Ting Hsuan(田庭瑄). </p>
+        <p>I graduated from 
+            <a href="https://www.skgsh.tn.edu.tw/">
+            Sheng Kung Girls High School
+            </a>
+            in Tainan, now studying in 
+            <a href="https://web.ee.ntu.edu.tw/">
+            NTUEE
+            </a>
+            for the first year.</p>
+        <p>I like to play sports, such as 
+            <a href="https://en.wikipedia.org/wiki/Stephen_Curry">
+            basketball
+            </a>
+            , 
+            <a href="https://zh.m.wikipedia.org/zh-tw/%E9%99%B3%E8%8F%80%E5%A9%B7">
+            volleyball
+            </a>
+            , and 
+            <a href="https://zh.m.wikipedia.org/zh-tw/%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3">
+            baseball
+            </a>
+            . These make me happy when I'm down, so that the difficulties can not beat me:) </p>
+
+        <p>Arrow Wei is one of my favorite singer, and the song below is called "喜歡我吧" 
+            both written and sung by her.</p>
+
+        <p></p>
+        
+        <audio controls="" autoplay="" loop="">
+            <source src="./index_files/ArrowWei.mp3" type="audio/mpeg">
+            </audio>
+
+        <p><span id="ct">5-3-2022 16:43:39</span></p>
+        <img src="./index_files/qoobee.gif" style="width:150px;height:150px; float: right; margin: 15px">
+        <!-- Load external JavaScript -->
+        <script src="./index_files/scripts.js.下載"></script>
+        
+    
+
+</body></html>
